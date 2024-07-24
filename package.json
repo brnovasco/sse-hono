@@ -1,0 +1,13 @@
+{
+  "name": "sse-hono",
+  "scripts": {
+    "dev": "bun run --hot src/index.tsx"
+  },
+  "dependencies": {
+    "hono": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typed-htmx": "^0.3.1"
+  }
+}
