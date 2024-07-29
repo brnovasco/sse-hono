@@ -1,13 +1,17 @@
-# SSE example using Bun Hono HtmX and Tailwindcss 
+# Small SSE example using Bun, Hono, HtmX and TailwindCSS 
 
-To install dependencies:
+A Hono-based server that publishes time updates via Server-Sent Events (SSE) and serves a webpage that dynamically updates the time using HtmX.
+
+### Install dependencies
+
 ```sh
 bun install
 ```
 
-To run:
+### Run
+
 ```sh
 bun run dev
 ```
 
-open http://localhost:3000
+Then open: http://localhost:3000
