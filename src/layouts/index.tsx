@@ -1,4 +1,5 @@
-export default function Layout({ children } : { children: JSX.Element }) {
+
+export default function Layout({ children } : { children: HTMLElement }) {
   return (
     <html>
       <head>
