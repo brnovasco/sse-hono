@@ -4,7 +4,7 @@ import Layout from "../layouts";
 const Home = () => {
   return (
     <Layout>
-      <div class="w-full min-h-[100dvh] grid grid-rows-[auto_1fr_auto]">
+      <div className="w-full min-h-[100dvh] grid grid-rows-[auto_1fr_auto]">
         <h1 className="text-3xl font-bold text-white text-center justify-center bg-gray-700 flex p-8">
           SSE Clock
         </h1>
@@ -18,6 +18,6 @@ const Home = () => {
       </div>
     </Layout>
   );
-}
+};
 
 export default Home;
