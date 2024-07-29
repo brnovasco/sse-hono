@@ -1,5 +1,5 @@
 
-export default function Layout({ children } : { children: HTMLElement }) {
+export default function Layout({ children } : { children: any }) {
   return (
     <html>
       <head>
